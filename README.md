@@ -5,7 +5,7 @@
 **Python Developer focused on building intuitive desktop applications and intelligent automation tools.**
 
 [<img src="https://img.shields.io/badge/Email-d14836?style=for-the-badge&logo=gmail&logoColor=white" />](mailto:gasdlarosa@gmail.com)
-[<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />](https://www.linkedin.com/in/your-linkedin-profile/)
+
 </div>
 
 ---
@@ -27,13 +27,17 @@
 ## 🚀 Showcase Projects
 *The source code for these applications is kept in private repositories.*
 
+<br>
+
 <details>
 <summary><strong>✒️ AI Signature Editor &nbsp;-&nbsp; Desktop app to extract, recolor, and resize signatures from images.</strong></summary>
 <br>
 
 An intuitive desktop application that processes signature images using an AI-powered background removal model. This tool allows users to quickly extract a signature, recolor it, resize it to specific dimensions, and save it as a transparent PNG for use in digital documents.
 
-![AI Signature Editor Screenshot](https://raw.githubusercontent.com/gasdlarosa/gasdlarosa/main/e-signature-app-screenshot.png)
+<div align="center">
+  <img src="https://raw.githubusercontent.com/gasdlarosa/gasdlarosa/main/e-signature-app-screenshot.png" width="800">
+</div>
 
 #### Key Features:
 -   **AI Background Removal:** Utilizes a Deep Image Segmentation model (`.onnx`) for accurate extraction.
@@ -49,7 +53,9 @@ An intuitive desktop application that processes signature images using an AI-pow
 
 A robust desktop utility for all common PDF tasks, powered by the Ghostscript and PyMuPDF engines. It provides a simple user interface to compress, merge, split, convert, and manage PDF files efficiently.
 
-![PDF Processor Screenshot](https://raw.githubusercontent.com/gasdlarosa/gasdlarosa/main/pdf-processor-screenshot.png)
+<div align="center">
+  <img src="https://raw.githubusercontent.com/gasdlarosa/gasdlarosa/main/pdf-processor-screenshot.png" width="800">
+</div>
 
 #### Key Features:
 -   **Versatile Toolkit:** Compress, merge, split, convert, lock, unlock, and watermark PDFs.
@@ -65,7 +71,9 @@ A robust desktop utility for all common PDF tasks, powered by the Ghostscript an
 
 A simple, fast, and functional desktop application that removes the background from images with a single click. Built with Python and Tkinter, it leverages a powerful AI model for high-quality, clean results.
 
-![Background_Remover_Screenshot](https://raw.githubusercontent.com/gasdlarosa/gasdlarosa/main/background-remover-screenshot.png)
+<div align="center">
+  <img src="https://raw.githubusercontent.com/gasdlarosa/gasdlarosa/main/background-remover-screenshot.png" width="800">
+</div>
 
 #### Key Features:
 -   **One-Click Removal:** Load an image and click one button to remove the background.
@@ -81,8 +89,10 @@ A simple, fast, and functional desktop application that removes the background f
 
 A robust desktop tool that solves the problem of font variations (e.g., "Bold," "Narrow") being grouped under a single parent family in operating systems. It intelligently modifies font metadata to force each variation to appear as its own top-level font family.
 
-![Font Renamer Utility Demo](https://i.imgur.com/your-demo-gif.gif)
-*(Replace with a GIF of the Font Renamer Utility)*
+<div align="center">
+  <img src="https://raw.githubusercontent.com/gasdlarosa/gasdlarosa/main/font-renamer-screenshot.png" width="800">
+  <!-- Note: Replace the URL above with the actual URL for your Font Renamer screenshot -->
+</div>
 
 #### Key Features:
 -   **Batch Processing:** Process entire folders of `.ttf` and `.otf` fonts at once.
@@ -99,4 +109,3 @@ A robust desktop tool that solves the problem of font variations (e.g., "Bold," 
 I'm always open to discussing new projects or collaboration opportunities. Feel free to reach out.
 
 -   **Email:** `gasdlarosa@gmail.com`
--   **LinkedIn:** [linkedin.com/in/your-linkedin-profile](https://www.linkedin.com/in/your-linkedin-profile/)
