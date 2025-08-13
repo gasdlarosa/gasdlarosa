@@ -100,7 +100,6 @@ Follow these steps to run the application on your local machine.
 <div align="center">
 
 [![Python Version](https://img.shields.io/badge/python-3.6%2B-blue.svg)](https://www.python.org/downloads/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
 A robust desktop tool to modify font metadata, ensuring every font variation appears as a distinct, top-level family in your OS and design software.
@@ -112,7 +111,7 @@ A robust desktop tool to modify font metadata, ensuring every font variation app
 <div align="center">
 
 *Replace this GIF with a screen recording of your application's workflow: Load -> Process -> View Details -> Save*
-![Font Renamer Utility Demo](https://raw.githubusercontent.com/gasdlarosa/gasdlarosa/main/font-renamer-screenshot.png)
+![Font Renamer Utility Demo](https://i.imgur.com/your-demo-gif.gif)
 
 </div>
 
@@ -203,9 +202,17 @@ The project is organized into several key modules:
 
 </details>
 
+<br>
+
+## 🤝 Contributing
+
+This project is not currently accepting public contributions. It is provided as a portfolio piece and demonstration of capabilities.
+
 ## 📄 License
 
-Distributed under the MIT License. See `LICENSE.txt` for more information.
+Copyright (c) 2024 [Your Name/Username]. All Rights Reserved.
+
+Without an explicit license, the code is not granted for use, modification, or distribution.
 
 ## 📫 Get In Touch
 
