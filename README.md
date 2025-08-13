@@ -21,3 +21,18 @@ An intuitive desktop application designed to process signature images using an A
 -   **GUI:** Tkinter
 -   **AI/ML:** ONNX Runtime
 -   **Image Processing:** Pillow
+
+### Showcase Project: PDF Processor
+> **Note:** The source code for this project is private.
+
+A comprehensive toolkit for all PDF needs, powered by Ghostscript and Python. It can compress, merge, split, and convert PDF files through a simple user interface.
+
+![PDF Processor Screenshot](https://raw.githubusercontent.com/gasdlarosa/gasdlarosa/main/pdf-processor-screenshot.png)
+
+**Key Features:**
+-   Compress and optimize PDF file sizes.
+-   Merge multiple PDFs into a single document.
+-   Split PDFs by page ranges.
+
+**Tech Stack:**
+-   Python, Tkinter, PyMuPDF, Ghostscript
