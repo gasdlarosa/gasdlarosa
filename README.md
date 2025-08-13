@@ -59,7 +59,7 @@ Here are a few of my recent projects. The source code for these applications is 
 
 > A simple, fast, and functional desktop application that removes the background from images with a single click. Built with Python and Tkinter, it leverages the powerful `transparent-background` library for high-quality, AI-powered image segmentation.
 
-![Background_Remover_Screenshot](https://raw.githubusercontent.com/gasdlarosa/gasdlarosa/main/pdf-processor-screenshot.png)
+![Background_Remover_Screenshot](https://raw.githubusercontent.com/gasdlarosa/gasdlarosa/main/background-remover-screenshot.png)
 
 ---
 
