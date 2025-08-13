@@ -95,6 +95,118 @@ Follow these steps to run the application on your local machine.
 -   You must have **Python 3.8 or newer** installed on your system.
 -   **Git** must be installed to clone the repository.
 
+# Font Renamer Utility
+
+<div align="center">
+
+[![Python Version](https://img.shields.io/badge/python-3.6%2B-blue.svg)](https://www.python.org/downloads/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+
+A robust desktop tool to modify font metadata, ensuring every font variation appears as a distinct, top-level family in your OS and design software.
+
+</div>
+
+---
+
+<div align="center">
+
+*Replace this GIF with a screen recording of your application's workflow: Load -> Process -> View Details -> Save*
+![Font Renamer Utility Demo](https://raw.githubusercontent.com/gasdlarosa/gasdlarosa/main/font-renamer-screenshot.png)
+
+</div>
+
+## The Problem
+
+Operating systems like Windows often group font variations (e.g., `Arial Narrow`, `Arial Bold`) under a single parent family (`Arial`). While logical, this hides variations within style menus, making it cumbersome for designers, developers, and typographers who want to see every font as a distinct, easily accessible family.
+
+This utility solves that problem by intelligently batch-processing your fonts and rewriting their metadata to force them to appear as standalone families.
+
+## ✨ Key Features
+
+*   🚀 **Batch Processing:** Load and process dozens of TrueType (`.ttf`) and OpenType (`.otf`) fonts in a single operation.
+*   ⚙️ **Intelligent Renaming:** Automatically modifies all necessary name table entries for maximum compatibility across different operating systems and applications.
+*   📊 **Detailed Reporting:** Review a comprehensive before-and-after report of all proposed metadata changes before committing to save the files.
+*   ⏱️ **Real-time Feedback:** A live log panel, progress bar, and Estimated Time Remaining (ETR) calculator keep you informed during processing.
+*   💾 **Automatic Backups:** For peace of mind, the utility automatically creates a timestamped backup of every original font file before processing.
+*   🎨 **Modern UI:** A clean, responsive, and intuitive interface built with Tkinter's modern `ttk` themed widgets.
+
+## 🚀 Getting Started
+
+Get the application running on your local machine in two simple steps.
+
+### Prerequisites
+
+*   Python 3.6 or newer
+*   The `fonttools` Python library
+
+### Installation
+
+1.  **Clone the repository:**
+    ```sh
+    git clone https://github.com/your-username/font-renamer-utility.git
+    cd font-renamer-utility
+    ```
+
+2.  **Install dependencies:**
+    The application relies on the `fonttools` library. Install it using pip:
+    ```sh
+    pip install fonttools
+    ```
+
+## 📖 Usage Guide
+
+1.  **Launch the Application:**
+    Run the `main.py` script from your terminal:
+    ```sh
+    python main.py
+    ```
+
+2.  **Load Fonts:**
+    Click **`Load Font(s)`**. You can select multiple `.ttf` or `.otf` files. Backups of your original files will be created automatically in a `.font_backups` folder.
+
+3.  **Process Fonts:**
+    Click **`Process All Fonts`**. The application will analyze each font and generate new metadata. The UI will display real-time progress.
+
+4.  **Review Changes (Recommended):**
+    After processing, click **`View Batch Details`**. This opens a report comparing the original and proposed names for every font, allowing you to verify the changes.
+
+5.  **Save Modified Fonts:**
+    Click **`Save All Modified Fonts`** and choose an output directory. The new font files, with sanitized names, will be saved there.
+
+6.  **Reset:**
+    Click **`Reset`** to clear the application's state and start a new batch.
+
+<br>
+
+<details>
+<summary><strong>🔬 The Technical Details: Renaming Logic & Codebase</strong></summary>
+
+### How the Renaming Works
+
+The utility's core logic is designed to trick an OS into un-grouping a font variation by making it a new, standalone family.
+
+1.  **Create a New Family Name:** It combines the original family and subfamily names. For example, a font with Family=`"Inter"` and Subfamily=`"SemiBold"` becomes the new Family=`"Inter SemiBold"`.
+2.  **Standardize the New Subfamily:** It sets the font's *new* subfamily to `"Regular"`.
+3.  **Update All Name IDs:** This new `"Family"` and `"Subfamily"` data is written to all relevant name IDs within the font's internal name table (`nameID` 1, 2, 4, 16, 17, 21, 22) to ensure maximum compatibility across platforms and software.
+
+The OS now sees a new font family called `"Inter SemiBold"` that has only one style: `"Regular"`. This forces it to be listed as a top-level font family.
+
+### Codebase Structure
+
+The project is organized into several key modules:
+
+-   `main.py`: The main application entry point, containing the `FontRenamerApp` class which manages the GUI, state, and threading.
+-   `processing/font_processor.py`: Contains the `FontProcessor` class, which handles all the low-level font file interactions using the `fonttools` library.
+-   `dialogs/font_dialogs.py`: Helper functions for creating native-looking file and directory dialogs.
+-   `utils/logging_config.py`: Sets up the application's logging configuration to direct output to the GUI.
+
+</details>
+
+## 📄 License
+
+Distributed under the MIT License. See `LICENSE.txt` for more information.
+
 ## 📫 Get In Touch
 
 If you'd like to chat about my projects or potential opportunities, feel free to reach out!
