@@ -1,4 +1,4 @@
-# Hi there, I'm [Your Name] 👋
+# Hi there, I'm Gaspar dela Rosa  👋
 
 I'm a developer passionate about creating useful and efficient applications. Here's one of my recent projects:
 
