@@ -3,7 +3,7 @@
 I'm a Python Developer specializing in building practical desktop applications and backend automation tools. My focus is on creating intuitive, user-friendly software that solves real-world challenges, from processing documents to integrating AI models for intelligent tasks.
 
 <p align="left">
-   <a href="gasdlarosa@gmail.com" target="_blank">
+   <a href="gasdlarosa@gmail.com" target="gmail.com">
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Me"/>
   </a>
 </p>
