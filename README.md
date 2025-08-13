@@ -3,10 +3,7 @@
 I'm a Python Developer specializing in building practical desktop applications and backend automation tools. My focus is on creating intuitive, user-friendly software that solves real-world challenges, from processing documents to integrating AI models for intelligent tasks.
 
 <p align="left">
-  <a href="https://www.linkedin.com/in/your-linkedin-profile/" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Profile"/>
-  </a>
-  <a href="mailto:your-email@example.com" target="_blank">
+   <a href="gasdlarosa@gmail.com" target="_blank">
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Me"/>
   </a>
 </p>
@@ -66,5 +63,5 @@ Here are a few of my recent projects. The source code for these applications is 
 
 If you'd like to chat about my projects or potential opportunities, feel free to reach out!
 
--   **Email:** `your-email@example.com`
--   **LinkedIn:** [linkedin.com/in/your-linkedin-profile](https://www.linkedin.com/in/your-linkedin-profile/)
+-   **Email:** `gasdlarosa@gmail.com`
+
