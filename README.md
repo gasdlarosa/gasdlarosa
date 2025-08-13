@@ -2,11 +2,7 @@
 
 I'm a developer passionate about creating useful and efficient applications. Here's one of my recent projects:
 
----
-
-###  Showcase Project: AI Signature Editor
-
-> **Note:** The source code for this project is private. This page serves as a portfolio showcase.
+AI Signature Editor
 
 An intuitive desktop application designed to process signature images using an AI-powered background removal model. This tool allows users to quickly extract a signature from its background, recolor it, resize it to specific dimensions, and save it as a transparent PNG, perfect for digital documents.
 
