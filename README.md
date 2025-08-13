@@ -11,7 +11,7 @@ I'm a developer passionate about creating useful and efficient applications. Her
 An intuitive desktop application designed to process signature images using an AI-powered background removal model. This tool allows users to quickly extract a signature from its background, recolor it, resize it to specific dimensions, and save it as a transparent PNG, perfect for digital documents.
 
 ## Screenshot
-![AI Signature Editor Screenshot](https://raw.githubusercontent.com/gasdlarosa/gasdlarosa/main/signature-app-screenshot.png)
+![AI Signature Editor Screenshot](https://raw.githubusercontent.com/gasdlarosa/gasdlarosa/main/e-signature-app-screenshot.png)
 
 ## Key Features
 -   **AI-Powered Background Removal:** Utilizes a Deep Image Segmentation model (`.onnx`) for accurate background extraction.
