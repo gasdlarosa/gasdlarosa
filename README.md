@@ -30,6 +30,24 @@
 <br>
 
 <details>
+<summary><strong>🔐 Password Cracker &nbsp;-&nbsp; Versatile password recovery tool for compressed archives.</strong></summary>
+<br>
+
+A comprehensive desktop application for recovering lost passwords from ZIP, RAR, and 7z archives. Features multiple attack methods including dictionary attacks using SecLists wordlists, mask attacks for known patterns, and hybrid combinations with real-time progress monitoring.
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/gasdlarosa/gasdlarosa/main/e-signature-app-screenshot.png" width="800">
+</div>
+
+#### Key Features:
+-   **Multiple Attack Modes:** SecLists integration, mask attacks, combination attacks, and custom wordlists.
+-   **Advanced Options:** Keyword filtering, leet speak transformations, and hybrid enhancements.
+-   **Session Management:** Save and load attack configurations for repeated use.
+-   **Detailed Reporting:** Generate comprehensive reports with attack statistics and password strength analysis.
+
+</details>
+
+<details>
 <summary><strong>✒️ AI Signature Editor &nbsp;-&nbsp; Desktop app to extract, recolor, and resize signatures from images.</strong></summary>
 <br>
 
