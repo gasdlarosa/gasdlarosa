@@ -36,7 +36,7 @@
 A comprehensive desktop application for recovering lost passwords from ZIP, RAR, and 7z archives. Features multiple attack methods including dictionary attacks using SecLists wordlists, mask attacks for known patterns, and hybrid combinations with real-time progress monitoring.
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/gasdlarosa/gasdlarosa/main/e-signature-app-screenshot.png" width="800">
+  <img src="https://raw.githubusercontent.com/gasdlarosa/gasdlarosa/main/password-cracker-screenshot.png" width="800">
 </div>
 
 #### Key Features:
