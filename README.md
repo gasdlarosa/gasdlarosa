@@ -15,8 +15,10 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
   <img src="https://img.shields.io/badge/Tkinter-2C5985?style=for-the-badge&logo=python&logoColor=white" alt="Tkinter"/>
-  <img src="https://img.shields.io/badge/ONNX-00594C?style=for-the-badge&logo=onnx&logoColor=white" alt="ONNX Runtime"/>
+  <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white" alt="OpenCV"/>
   <img src="https://img.shields.io/badge/Pillow-92447A?style=for-the-badge&logo=pillow&logoColor=white" alt="Pillow"/>
+  <img src="https://img.shields.io/badge/Ultralytics-2A3DA4?style=for-the-badge&logo=yolo&logoColor=white" alt="Ultralytics YOLO"/>
+  <img src="https://img.shields.io/badge/ONNX-00594C?style=for-the-badge&logo=onnx&logoColor=white" alt="ONNX Runtime"/>
   <img src="https://img.shields.io/badge/PyMuPDF-A41D1A?style=for-the-badge&logo=pypi&logoColor=white" alt="PyMuPDF"/>
   <img src="https://img.shields.io/badge/Ghostscript-000000?style=for-the-badge&logo=ghostscript&logoColor=white" alt="Ghostscript"/>
   <img src="https://img.shields.io/badge/FontTools-4C4C4C?style=for-the-badge&logo=pypi&logoColor=white" alt="FontTools"/>
@@ -28,6 +30,25 @@
 *The source code for these applications is kept in private repositories.*
 
 <br>
+
+<details>
+<summary><strong>📷 AI Image Extractor &nbsp;-&nbsp; Automatically crops portraits from scanned documents.</strong></summary>
+<br>
+
+An intelligent desktop utility that uses a YOLOv8 model to automatically detect, de-skew, and extract perfectly cropped portrait photos from scanned documents (.pdf, .docx) and images.
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/gasdlarosa/gasdlarosa/main/image-extractor-screenshot.png" width="800">
+  <!-- Note: Replace the URL above with the actual URL for your Image Extractor screenshot -->
+</div>
+
+#### Key Features:
+-   **AI-Powered Smart Cropping:** Utilizes a YOLOv8 model to calculate the ideal crop with proper headroom.
+-   **Automatic De-skew & Straighten:** Corrects the perspective of skewed photos using OpenCV.
+-   **Multi-Format Support:** Processes images, PDFs, and Word documents to find all embedded photos.
+-   **Intelligent Filenaming:** Suggests logical filenames based on the original source document.
+
+</details>
 
 <details>
 <summary><strong>🔐 Password Cracker &nbsp;-&nbsp; Versatile password recovery tool for compressed archives.</strong></summary>
