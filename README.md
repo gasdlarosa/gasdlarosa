@@ -52,7 +52,10 @@ expand_less
 A desktop application for downloading media from Reddit and automatically classifying it as NSFW or SFW.
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/gasdlarosa/gasdlarosa/main/image-extractor-screenshot.png" width="800">
+  <img src="https://raw.githubusercontent.com/gasdlarosa/gasdlarosa/main/main_windows.png" width="800">
+    <img src="https://raw.githubusercontent.com/gasdlarosa/gasdlarosa/main/nsfw_sample.png" width="800">
+    <img src="https://raw.githubusercontent.com/gasdlarosa/gasdlarosa/main/sfw_sample.png" width="800">
+    <img src="https://raw.githubusercontent.com/gasdlarosa/gasdlarosa/main/videos_sample.png" width="800">
 </div>
 
 **Key Features:**
