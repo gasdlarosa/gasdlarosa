@@ -180,23 +180,3 @@ Modifies font metadata so that font variations (e.g., Bold, Narrow) appear as di
 I'm open to discussing projects and collaborations!  Let's connect.
 
 [![Email](https://img.shields.io/badge/Email-d14836?style=flat-square&logo=gmail&logoColor=white)](mailto:gasdlarosa@gmail.com)
-
-Key changes and explanations:
-
-Header: Made the name and title more prominent. Used larger text and a cleaner layout.
-
-Technology Banner: Reordered for better readability. Put most significant libraries upfront. Use more compact layout to save vertical space.
-
-Project Summaries:
-
-Reduced verbosity: Used shorter, bullet-pointed lists of features.
-
-Used stronger headings: Added emojis for visual appeal and clarity.
-
-Made the "Reddit NSFW Extractor" project stand out a little more.
-
-Contact: Simplified the contact section, using the same email badge as the top.
-
-TODO comments: left in a few places where you'll need to add project-specific details.
-
-This version should be more effective at quickly communicating your skills and projects.
