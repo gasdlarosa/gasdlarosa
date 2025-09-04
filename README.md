@@ -1,11 +1,3 @@
-OK, here's a revised version with some layout adjustments and emphasis, keeping proportionality in mind. I've focused on making it visually appealing and easier to scan.
-
-code
-Md
-download
-content_copy
-expand_less
-
 <div align="center">
 
 # 👋 Hi there! I'm Gaspar dela Rosa
