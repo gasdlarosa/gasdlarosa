@@ -32,8 +32,6 @@
 
 ## 🚀 Featured Projects
 
-*Private repositories showcasing my work.*
-
 <details>
 <summary><strong>⬇️ TikTok Media Downloader</strong> - Download videos and media from TikTok user profiles ⬇️</summary>
 <br>
