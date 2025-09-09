@@ -35,30 +35,6 @@
 
 *Private repositories showcasing my work.*
 
-<br>
-
-<details>
-<summary><strong>🔞 Reddit NSFW Extractor</strong> - Download and classify media from any subreddit 🔞</summary>
-<br>
-
-A desktop application for downloading media from Reddit and automatically classifying it as NSFW or SFW.
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/gasdlarosa/gasdlarosa/main/main_window.png" width="800">
-    <img src="https://raw.githubusercontent.com/gasdlarosa/gasdlarosa/main/nsfw_sample.png" width="800">
-    <img src="https://raw.githubusercontent.com/gasdlarosa/gasdlarosa/main/sfw_sample.png" width="800">
-    <img src="https://raw.githubusercontent.com/gasdlarosa/gasdlarosa/main/videos_sample.png" width="800">
-</div>
-
-**Key Features:**
-*   **AI-Powered Classification:** Sorts content using a Transformers model.
-*   **Flexible Extraction:** Standard & time-based modes.
-*   **Broad Media Support:** Handles images, GIFs, and videos from various sources.
-*   **Session & History:** Save progress and avoid duplicate downloads.
-*   **Automatic Merging:** Combines video/audio streams (FFmpeg).
-
-</details>
-
 <details>
 <summary><strong>📷 AI Image Extractor</strong> - Crop portraits from scanned documents 📷</summary>
 <br>
