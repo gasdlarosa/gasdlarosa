@@ -1,3 +1,9 @@
+code
+Markdown
+download
+content_copy
+expand_less
+
 <div align="center">
 
 # 👋 Hi there! I'm Gaspar dela Rosa
@@ -15,13 +21,12 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
   <img src="https://img.shields.io/badge/Tkinter-2C5985?style=for-the-badge&logo=python&logoColor=white" alt="Tkinter"/>
-    <img src="https://img.shields.io/badge/PRAW-FF4500?style=for-the-badge&logo=reddit&logoColor=white" alt="PRAW"/>
+  <img src="https://img.shields.io/badge/PRAW-FF4500?style=for-the-badge&logo=reddit&logoColor=white" alt="PRAW"/>
   <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch"/>
   <img src="https://img.shields.io/badge/Transformers-FFD700?style=for-the-badge&logo=hugging-face&logoColor=black" alt="Transformers"/>
-
   <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white" alt="OpenCV"/>
   <img src="https://img.shields.io/badge/Pillow-92447A?style=for-the-badge&logo=pillow&logoColor=white" alt="Pillow"/>
-    <img src="https://img.shields.io/badge/FFmpeg-007800?style=for-the-badge&logo=ffmpeg&logoColor=white" alt="FFmpeg"/>
+  <img src="https://img.shields.io/badge/FFmpeg-007800?style=for-the-badge&logo=ffmpeg&logoColor=white" alt="FFmpeg"/>
   <img src="https://img.shields.io/badge/Ultralytics-2A3DA4?style=for-the-badge&logo=yolo&logoColor=white" alt="Ultralytics YOLO"/>
   <img src="https://img.shields.io/badge/ONNX-00594C?style=for-the-badge&logo=onnx&logoColor=white" alt="ONNX Runtime"/>
   <img src="https://img.shields.io/badge/PyMuPDF-A41D1A?style=for-the-badge&logo=pypi&logoColor=white" alt="PyMuPDF"/>
@@ -34,6 +39,25 @@
 ## 🚀 Featured Projects
 
 *Private repositories showcasing my work.*
+
+<details>
+<summary><strong>⬇️ TikTok Media Downloader</strong> - Download videos and media from TikTok user profiles ⬇️</summary>
+<br>
+
+A user-friendly desktop application built with Python and Tkinter, designed to download videos and media from TikTok user profiles. It leverages the powerful `yt-dlp` backend.
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/gasdlarosa/gasdlarosa/main/tiktok-downloader-screenshot.png" width="800" alt="TikTok Media Downloader Screenshot">
+</div>
+
+**Key Features:**
+*   **Robust `yt-dlp` Backend:** Leverages `yt-dlp` for powerful download capabilities.
+*   **Authenticated Downloads:** Supports private/restricted accounts via cookies.
+*   **Configurable Quality:** Choose preferred video and media quality.
+*   **Flexible Naming:** Customizable file naming conventions.
+*   **Advanced History Management:** Crash-proof checkpointing for download history.
+
+</details>
 
 <details>
 <summary><strong>📷 AI Image Extractor</strong> - Crop portraits from scanned documents 📷</summary>
@@ -147,6 +171,6 @@ Modifies font metadata so that font variations (e.g., Bold, Narrow) appear as di
 
 ## 📧 Get In Touch
 
-I'm open to discussing projects and collaborations!  Let's connect.
+I'm open to discussing projects and collaborations! Let's connect.
 
 [![Email](https://img.shields.io/badge/Email-d14836?style=flat-square&logo=gmail&logoColor=white)](mailto:gasdlarosa@gmail.com)
