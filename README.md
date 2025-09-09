@@ -1,9 +1,3 @@
-code
-Markdown
-download
-content_copy
-expand_less
-
 <div align="center">
 
 # 👋 Hi there! I'm Gaspar dela Rosa
