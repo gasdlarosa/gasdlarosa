@@ -47,7 +47,8 @@ expand_less
 A user-friendly desktop application built with Python and Tkinter, designed to download videos and media from TikTok user profiles. It leverages the powerful `yt-dlp` backend.
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/gasdlarosa/gasdlarosa/main/tiktok-downloader-screenshot.png" width="800" alt="TikTok Media Downloader Screenshot">
+  <img src="https://raw.githubusercontent.com/gasdlarosa/gasdlarosa/main/tiktok_media_downloader.png" width="800" alt="TikTok Media Downloader Screenshot">
+  <img src="https://raw.githubusercontent.com/gasdlarosa/gasdlarosa/main/tiktok_extracted_media.png" width="800" alt="TikTok Extracted Media Screenshot">
 </div>
 
 **Key Features:**
