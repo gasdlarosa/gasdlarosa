@@ -1,6 +1,6 @@
 <div align="center">
 
-# 👋 Hi there! I'm Gas Dela Rosa ¯\_(ツ)_/¯
+# 👋 Hi there! I'm Gas Dela Rosa  ¯\_(ツ)_/¯
 
 **Python Developer | Desktop Applications | Automation Tools**
 
