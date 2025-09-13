@@ -189,7 +189,6 @@ Modifies font metadata so that font variations (e.g., Bold, Narrow) appear as di
 ---
 
 ## 📧 Get In Touch
-
 I'm open to discussing projects and collaborations! Let's connect.
 
-[![Email](https://img.shields.io/badge/Email-d14836?style=flat-square&logo=gmail&logoColor=white)](mailto:gasdlarosa@gmail.com)
+[![Email](https://img.shields.io/badge/Email-d14836?style=flat-square&logo=gmail&logoColor=white)](mailto:gasdlarosa@gmail.com) gasdlarosa@gmail.com
