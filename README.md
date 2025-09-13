@@ -39,8 +39,11 @@
 A powerful and user-friendly desktop tool for extracting images and videos from Reddit, classifying them with an AI model, and organizing them into local folders. Built with Python and CustomTkinter, it leverages the Reddit API for content retrieval and a pre-trained AI model for NSFW detection.
 
 <div align="center">
-  <!-- Add your screenshot here. Example: -->
-  <!-- <img src="https://raw.githubusercontent.com/gasdlarosa/reddit-media-extractor/main/screenshot.png" width="800" alt="Reddit Media Extractor Screenshot"> -->
+   <img src="https://raw.githubusercontent.com/gasdlarosa/gasdlarosa/main/main_window.png" width="800">
+      <img src="https://raw.githubusercontent.com/gasdlarosa/gasdlarosa/main/nsfw_downloads.png" width="800">
+         <img src="https://raw.githubusercontent.com/gasdlarosa/gasdlarosa/main/sfw_downloads.png" width="800">
+            <img src="https://raw.githubusercontent.com/gasdlarosa/gasdlarosa/main/videos_downloads.png" width="800">
+
 </div>
 
 **Key Features:**
