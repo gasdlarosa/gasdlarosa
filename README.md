@@ -17,7 +17,7 @@
   <img src="https://img.shields.io/badge/Tkinter-2C5985?style=for-the-badge&logo=python&logoColor=white" alt="Tkinter"/>
   <img src="https://img.shields.io/badge/PRAW-FF4500?style=for-the-badge&logo=reddit&logoColor=white" alt="PRAW"/>
   <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch"/>
-  <img src="https://img.shields.io/badge/Transformers-FFD700?style=for-the-badge&logo=hugging-face&logoColor=black" alt="Transformers"/>
+  <img src="https://img://img.shields.io/badge/Transformers-FFD700?style=for-the-badge&logo=hugging-face&logoColor=black" alt="Transformers"/>
   <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white" alt="OpenCV"/>
   <img src="https://img.shields.io/badge/Pillow-92447A?style=for-the-badge&logo=pillow&logoColor=white" alt="Pillow"/>
   <img src="https://img.shields.io/badge/FFmpeg-007800?style=for-the-badge&logo=ffmpeg&logoColor=white" alt="FFmpeg"/>
@@ -31,6 +31,29 @@
 ---
 
 ## 🚀 Featured Projects
+
+<details>
+<summary><strong>⬇️ Reddit Media Extractor and NSFW Classifier</strong> - Extract, classify, and organize Reddit media ⬇️</summary>
+<br>
+
+A powerful and user-friendly desktop tool for extracting images and videos from Reddit, classifying them with an AI model, and organizing them into local folders. Built with Python and CustomTkinter, it leverages the Reddit API for content retrieval and a pre-trained AI model for NSFW detection.
+
+<div align="center">
+  <!-- Add your screenshot here. Example: -->
+  <!-- <img src="https://raw.githubusercontent.com/gasdlarosa/reddit-media-extractor/main/screenshot.png" width="800" alt="Reddit Media Extractor Screenshot"> -->
+</div>
+
+**Key Features:**
+*   **CustomTkinter GUI**: Modern, responsive, and aesthetically pleasing interface.
+*   **Reddit API Integration**: Connects using PRAW for efficient post fetching.
+*   **Media Extraction**: Downloads images (JPG, PNG, GIF) and videos (MP4, GIFV).
+*   **Smart Video Handling**: Merges audio and video streams using FFmpeg.
+*   **NSFW Classification**: Employs a Hugging Face Transformers-based AI model to classify media.
+*   **Automatic Organization**: Saves media into `videos`, `nsfw`, and `sfw` subdirectories.
+*   **Download History**: Prevents redundant downloads by maintaining a session-specific history.
+*   **Session Management**: Save and load application settings and credentials.
+
+</details>
 
 <details>
 <summary><strong>⬇️ TikTok Media Downloader</strong> - Download videos and media from TikTok user profiles ⬇️</summary>
