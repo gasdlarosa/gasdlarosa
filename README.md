@@ -38,9 +38,6 @@
 
 A robust and user-friendly batch script for automatically registering COM components (`.dll` and `.ocx` files) on Windows. It intelligently handles administrator privileges and 32/64-bit compatibility issues, making it a reliable tool for developers, IT professionals, and power users.
 
-![Demo GIF](https://via.placeholder.com/700x350.gif/000000/FFFFFF?text=Script+Execution+Demo)
-*(Optional: You can create a short GIF demonstrating the script's execution and replace the link above.)*
-
 ## Overview
 
 Registering legacy DLL and OCX components on modern Windows systems can be a tedious and error-prone task. This script automates the entire process. It ensures that the correct registration tools are used, handles required permissions gracefully, and provides a clear summary of its actions.
