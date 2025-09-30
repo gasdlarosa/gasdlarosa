@@ -1,6 +1,6 @@
 <div align="center">
 
-# 👋 Hi there! I'm Gas Dela Rosa  ¯\_(ツ)_/¯
+# 👋 Hi there! I'm Gas Dela Rosa ¯\_(ツ)_/¯
 
 **Python Developer | Desktop Applications | Automation Tools**
 
@@ -31,6 +31,89 @@
 ---
 
 ## 🚀 Featured Projects
+
+<details>
+<summary><strong>⚙️ Windows Component Registrar (DLL & OCX)</strong> - Smart batch script for registering COM components ⚙️</summary>
+<br>
+
+A robust and user-friendly batch script for automatically registering COM components (`.dll` and `.ocx` files) on Windows. It intelligently handles administrator privileges and 32/64-bit compatibility issues, making it a reliable tool for developers, IT professionals, and power users.
+
+![Demo GIF](https://via.placeholder.com/700x350.gif/000000/FFFFFF?text=Script+Execution+Demo)
+*(Optional: You can create a short GIF demonstrating the script's execution and replace the link above.)*
+
+## Overview
+
+Registering legacy DLL and OCX components on modern Windows systems can be a tedious and error-prone task. This script automates the entire process. It ensures that the correct registration tools are used, handles required permissions gracefully, and provides a clear summary of its actions.
+
+## Key Features
+
+-   **✅ Automatic Administrator Elevation**: The script detects if it's running without administrative privileges and will automatically prompt for elevation via the User Account Control (UAC) dialog.
+-   **⚙️ Smart 32/64-bit Compatibility**: On 64-bit versions of Windows, it automatically uses the 32-bit version of `regsvr32.exe` from the `SysWOW64` directory. This is crucial for ensuring compatibility with older 32-bit components.
+-   **🔍 Pre-registration Check**: To improve efficiency and prevent unnecessary operations, the script first checks the Windows Registry to see if a component is already registered.
+-   **📂 Batch Processing**: Simply drop all your `.dll` and `.ocx` files into the `components` subfolder, and the script will process them all in one go.
+-   **📊 Detailed Summary Report**: After execution, a final report is displayed, showing how many components were successfully registered, how many were already registered, and how many failed.
+-   **📜 User-Friendly Instructions**: The script starts by displaying clear, concise instructions, ensuring the user understands the prerequisites and process before any action is taken.
+
+## Prerequisites
+
+-   Windows Vista or newer (due to the UAC elevation method).
+-   The `.dll` and `.ocx` files you wish to register.
+
+## How to Use
+
+1.  **Download:** Clone this repository or download the `register_components.bat` file.
+
+2.  **Create the Directory Structure:**
+    -   Place the `register_components.bat` file in a folder of your choice.
+    -   In that same folder, create a new subfolder and name it exactly `components`.
+
+3.  **Add Components:**
+    -   Copy all the `.dll` and `.ocx` files that you need to register into the newly created `components` folder.
+
+    Your folder structure should look like this:
+
+    ```
+    └── MyProject/
+        ├── register_components.bat
+        └── components/
+            ├── component1.dll
+            ├── component2.ocx
+            ├── another.dll
+            └── ...
+    ```
+
+4.  **Run the Script:**
+    -   Double-click the `register_components.bat` file.
+    -   A command prompt window will appear with instructions. Press any key to continue.
+
+5.  **Approve UAC Prompt:**
+    -   A **User Account Control (UAC)** prompt will appear asking for administrator privileges. You **MUST** click "Yes" for the script to function correctly.
+    -   The script will then proceed to register all the components and will display the final summary when finished.
+
+## Understanding the Output
+
+The script provides real-time feedback as it processes each file. The final summary is broken down into three categories:
+
+-   **Successfully Registered**: The number of new components that were registered without errors.
+-   **Already Registered**: The number of components that were skipped because they were already present in the Windows Registry.
+-   **Failed to Register**: The number of components that could not be registered. This can happen if a file is not a valid COM component, is corrupt, or is missing its own dependencies.
+
+## Troubleshooting
+
+If a component fails to register, consider the following:
+
+-   **Missing Dependencies**: The `.dll` or `.ocx` may depend on other libraries that are not present on the system. Use a tool like "Dependency Walker" to check for missing dependencies.
+-   **Corrupt File**: The component file itself may be corrupted or incomplete. Try re-downloading or obtaining a fresh copy.
+-   **Not a Registrable Component**: Not all `.dll` files are COM components and therefore cannot be registered with `regsvr32.exe`. The file must export the `DllRegisterServer` function.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Disclaimer
+
+This script modifies the Windows Registry. While it is designed to be safe, you should always use it with care. The author is not responsible for any damage to your system. Always ensure you have backups of important data.
+</details>
 
 <details>
 <summary><strong>⬇️ Reddit Media Extractor and NSFW Classifier</strong> - Extract, classify, and organize Reddit media ⬇️</summary>
