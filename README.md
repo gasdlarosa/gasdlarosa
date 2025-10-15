@@ -39,6 +39,14 @@
 **Overview**
 A modern, cross-platform GUI application built with Python and CustomTkinter for downloading YouTube content. It utilizes `yt-dlp` for core downloading and `ffmpeg` for media processing, and features an integrated role-based authentication system. This version is simplified for ease of use, focusing on producing universally compatible media files.
 
+<div align="center">
+   <img src="https://raw.githubusercontent.com/gasdlarosa/gasdlarosa/main/4k_yt_downloader_login_page.png" width="800">
+      <img src="https://raw.githubusercontent.com/gasdlarosa/gasdlarosa/main/4k_yt_downloader_main_window.png" width="800">
+         <img src="https://raw.githubusercontent.com/gasdlarosa/gasdlarosa/main/4k_yt_downloader_main_window_fetch.png" width="800">
+</div>
+
+
+
 ## Features
 
 *   **Role-Based Authentication:** Secure login for Administrator and Operator roles using `bcrypt` and an embedded SQLite database.
