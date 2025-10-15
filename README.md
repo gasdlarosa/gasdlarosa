@@ -1,36 +1,74 @@
-<div align="center">
-
-# 👋 Hi there! I'm Gas Dela Rosa ¯\_(ツ)_/¯
-
-**Python Developer | Desktop Applications | Automation Tools**
-
-[![Email](https://img.shields.io/badge/Email-d14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:gasdlarosa@gmail.com)
-
-</div>
-
----
-
-## 🛠️ Core Technologies
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
-  <img src="https://img.shields.io/badge/Tkinter-2C5985?style=for-the-badge&logo=python&logoColor=white" alt="Tkinter"/>
-  <img src="https://img.shields.io/badge/PRAW-FF4500?style=for-the-badge&logo=reddit&logoColor=white" alt="PRAW"/>
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch"/>
-  <img src="https://img.shields.io/badge/Transformers-FFD700?style=for-the-badge&logo=hugging-face&logoColor=black" alt="Transformers"/>
-  <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white" alt="OpenCV"/>
-  <img src="https://img.shields.io/badge/Pillow-92447A?style=for-the-badge&logo=pillow&logoColor=white" alt="Pillow"/>
-  <img src="https://img.shields.io/badge/FFmpeg-007800?style=for-the-badge&logo=ffmpeg&logoColor=white" alt="FFmpeg"/>
-  <img src="https://img.shields.io/badge/Ultralytics-2A3DA4?style=for-the-badge&logo=yolo&logoColor=white" alt="Ultralytics YOLO"/>
-  <img src="https://img.shields.io/badge/ONNX-00594C?style=for-the-badge&logo=onnx&logoColor=white" alt="ONNX Runtime"/>
-  <img src="https://img.shields.io/badge/PyMuPDF-A41D1A?style=for-the-badge&logo=pypi&logoColor=white" alt="PyMuPDF"/>
-  <img src="https://img.shields.io/badge/Ghostscript-000000?style=for-the-badge&logo=ghostscript&logoColor=white" alt="Ghostscript"/>
-  <img src="https://img.shields.io/badge/FontTools-4C4C4C?style=for-the-badge&logo=pypi&logoColor=white" alt="FontTools"/>
-</p>
-
 ---
 
 ## 🚀 Featured Projects
+
+<details>
+<summary><strong>⬇️ 4K YT Downloader (with Authentication)</strong> - Download YouTube content with role-based authentication ⬇️</summary>
+<br>
+
+A modern, cross-platform GUI application built with Python and CustomTkinter for downloading YouTube content. It utilizes `yt-dlp` for core downloading and `ffmpeg` for media processing, and features an integrated role-based authentication system.
+
+This version is simplified for ease of use, focusing on producing universally compatible media files.
+
+## Features
+
+*   **Role-Based Authentication:** Secure login for Administrator and Operator roles using `bcrypt` and an embedded SQLite database.
+*   **Intuitive & Simple GUI:** Built with CustomTkinter (CTK) for a modern aesthetic. The interface is streamlined for a simple workflow.
+*   **One-Click Downloads:**
+    *   **Video:** Downloads the highest available quality and automatically converts it into a universally compatible **MP4 (H.264/AAC)** file.
+    *   **Audio:** Downloads the best audio available and converts it to **MP3**.
+*   **Playlist Support:** Automatically detects playlists and downloads all items sequentially.
+*   **Progress Tracking:** Real-time download and post-processing status.
+*   **User Management (Admin Only):** Administrators can register and delete Operator accounts.
+*   **Logging:** In-app log viewer for troubleshooting.
+
+## Prerequisites
+
+To run this application, you need Python and several packages, as well as the external utility `FFmpeg`.
+
+1.  **Python 3.x:** Download and install from [python.org](https://www.python.org/downloads/).
+2.  **FFmpeg:** This is **critical** for converting and merging video/audio.
+    *   Download from [ffmpeg.org](https://ffmpeg.org/download.html).
+    *   **Installation:** You must ensure the `ffmpeg` executable is accessible from your system's PATH.
+
+## Installation and Setup
+
+1.  **Clone the Repository (Optional) or Save Files:**
+    Create a project folder and save all the provided `.py` files inside it. Create subfolders `processing` and `utils` and place the respective files inside them.
+
+2.  **Install Required Python Packages:**
+    Open a terminal or command prompt in your project folder and run:
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+## Usage
+
+1.  **Run the Application:**
+    ```bash
+    python main.py
+    ```
+
+2.  **Initial Administrator Setup:**
+    *   On the first run, the database is created. The administrator account is created upon the first login attempt.
+    *   Select the **Administrator** role.
+    *   Enter the fixed PIN: **`116898`**
+    *   The application will create the administrator account and log you in.
+
+3.  **Administrator Actions:**
+    *   Once logged in, the Administrator can access **File -> Account Registration** to create new **Operator** users.
+    *   Use **File -> User Management** to view and delete existing Operator accounts.
+
+4.  **Operator Login:**
+    *   Select the **Operator** role.
+    *   Enter the username and PIN created by the administrator.
+
+5.  **Downloading Content:**
+    *   Paste a YouTube URL into the entry field.
+    *   Click **Fetch**.
+    *   Once the video/playlist information appears, click either **Download Video (MP4)** or **Download Audio (MP3)**.
+
+</details>
 
 <details>
 <summary><strong>⚙️ Windows Component Registrar (DLL & OCX)</strong> - Smart batch script for registering COM components ⚙️</summary>
@@ -265,10 +303,3 @@ Modifies font metadata so that font variations (e.g., Bold, Narrow) appear as di
 *   **Automatic Backups:**
 
 </details>
-
----
-
-## 📧 Get In Touch
-I'm open to discussing projects and collaborations! Let's connect.
-
-[![Email](https://img.shields.io/badge/Email-d14836?style=flat-square&logo=gmail&logoColor=white)](mailto:gasdlarosa@gmail.com) gasdlarosa@gmail.com
