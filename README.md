@@ -35,6 +35,16 @@
 ## 🚀 Featured Projects
 
 <details>
+<summary><strong>🖋️ SignaturaAI v1.0.0</strong> - Spotting Signatures with Next-Level AI Accuracy 🖋️</summary>
+<br>
+
+_**Overview**_
+<br>
+SignaturaAI is a modern, cross-platform desktop application designed for detecting signatures in documents using the powerful `yolov8s-signature-detector` model. It leverages YOLOv8 to achieve next-level AI accuracy in identifying signature placements.
+
+</details>
+
+<details>
 <summary><strong>🤖 PandokAI</strong> - Secure, Offline AI Image Analysis for Human Insights 🤖</summary>
 <br>
 
