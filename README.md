@@ -34,7 +34,7 @@
 
 ## 🚀 Featured Projects
 
-<details open>
+<details>
 <summary><strong>🤖 PandokAI</strong> - Secure, Offline AI Image Analysis for Human Insights 🤖</summary>
 <br>
 
