@@ -35,7 +35,7 @@
 ## 🚀 Featured Projects
 
 <details>
-<summary><strong>🖋️ SignaturaAI v1.0.0</strong> - Spotting Signatures with Next-Level AI Accuracy 🖋️</summary>
+<summary><strong>🖋️ SignaturaAI </strong> - Spotting Signatures with Next-Level AI Accuracy 🖋️</summary>
 <br>
 
 _**Overview**_
