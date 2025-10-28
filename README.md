@@ -42,6 +42,14 @@ _**Overview**_
 <br>
 SignaturaAI is a modern, cross-platform desktop application designed for detecting signatures in documents using the powerful `yolov8s-signature-detector` model. It leverages YOLOv8 to achieve next-level AI accuracy in identifying signature placements.
 
+<div align="center">
+   <img src="https://raw.githubusercontent.com/gasdlarosa/gasdlarosa/main/SignaturaAI_admin_login_page.png" width="800">
+   <img src="https://raw.githubusercontent.com/gasdlarosa/gasdlarosa/main/SignaturaAI_operator_login_page.png" width="800">
+   <img src="https://raw.githubusercontent.com/gasdlarosa/gasdlarosa/main/SignaturaAI_main_window.png" width="800">
+  <img src="https://raw.githubusercontent.com/gasdlarosa/gasdlarosa/main/SignaturaAI_main_window_with_subject.png" width="800">
+</div>
+
+
 </details>
 
 <details>
