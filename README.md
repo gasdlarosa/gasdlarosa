@@ -45,20 +45,6 @@ A modern, cross-platform GUI application built with Python and CustomTkinter for
          <img src="https://raw.githubusercontent.com/gasdlarosa/gasdlarosa/main/4k_yt_downloader_main_window_fetch.png" width="800">
 </div>
 
-
-
-## Features
-
-*   **Role-Based Authentication:** Secure login for Administrator and Operator roles using `bcrypt` and an embedded SQLite database.
-*   **Intuitive & Simple GUI:** Built with CustomTkinter (CTK) for a modern aesthetic. The interface is streamlined for a simple workflow.
-*   **One-Click Downloads:**
-    *   **Video:** Downloads the highest available quality and automatically converts it into a universally compatible **MP4 (H.264/AAC)** file.
-    *   **Audio:** Downloads the best audio available and converts it to **MP3**.
-*   **Playlist Support:** Automatically detects playlists and downloads all items sequentially.
-*   **Progress Tracking:** Real-time download and post-processing status.
-*   **User Management (Admin Only):** Administrators can register and delete Operator accounts.
-*   **Logging:** In-app log viewer for troubleshooting.
-
 </details>
 
 <details>
@@ -67,15 +53,6 @@ A modern, cross-platform GUI application built with Python and CustomTkinter for
 
 **Overview**
 A robust and user-friendly batch script for automatically registering COM components (`.dll` and `.ocx` files) on Windows. It intelligently handles administrator privileges and 32/64-bit compatibility issues, making it a reliable tool for developers, IT professionals, and power users.
-
-## Key Features
-
--   **✅ Automatic Administrator Elevation**: The script detects if it's running without administrative privileges and will automatically prompt for elevation via the User Account Control (UAC) dialog.
--   **⚙️ Smart 32/64-bit Compatibility**: On 64-bit versions of Windows, it automatically uses the 32-bit version of `regsvr32.exe` from the `SysWOW64` directory. This is crucial for ensuring compatibility with older 32-bit components.
--   **🔍 Pre-registration Check**: To improve efficiency and prevent unnecessary operations, the script first checks the Windows Registry to see if a component is already registered.
--   **📂 Batch Processing**: Simply drop all your `.dll` and `.ocx` files into the `components` subfolder, and the script will process them all in one go.
--   **📊 Detailed Summary Report**: After execution, a final report is displayed, showing how many components were successfully registered, how many were already registered, and how many failed.
--   **📜 User-Friendly Instructions**: The script starts by displaying clear, concise instructions, ensuring the user understands the prerequisites and process before any action is taken.
 
 </details>
 
@@ -94,16 +71,6 @@ A powerful and user-friendly desktop tool for extracting images and videos from 
 
 </div>
 
-**Key Features:**
-*   **CustomTkinter GUI**: Modern, responsive, and aesthetically pleasing interface.
-*   **Reddit API Integration**: Connects using PRAW for efficient post fetching.
-*   **Media Extraction**: Downloads images (JPG, PNG, GIF) and videos (MP4, GIFV).
-*   **Smart Video Handling**: Merges audio and video streams using FFmpeg.
-*   **NSFW Classification**: Employs a Hugging Face Transformers-based AI model to classify media.
-*   **Automatic Organization**: Saves media into `videos`, `nsfw`, and `sfw` subdirectories.
-*   **Download History**: Prevents redundant downloads by maintaining a session-specific history.
-*   **Session Management**: Save and load application settings and credentials.
-
 </details>
 
 <details>
@@ -118,16 +85,8 @@ A user-friendly desktop application built with Python and Tkinter, designed to d
   <img src="https://raw.githubusercontent.com/gasdlarosa/gasdlarosa/main/tiktok_extracted_media.png" width="800" alt="TikTok Extracted Media Screenshot">
 </div>
 
-**Key Features:**
-*   **Robust `yt-dlp` Backend:** Leverages `yt-dlp` for powerful download capabilities.
-*   **Authenticated Downloads:** Supports private/restricted accounts via cookies.
-*   **Configurable Quality:** Choose preferred video and media quality.
-*   **Flexible Naming:** Customizable file naming conventions.
-*   **Advanced History Management:** Crash-proof checkpointing for download history.
-
-</details>
-
 <details>
+  
 <summary><strong>📷 AI Image Extractor</strong> - Crop portraits from scanned documents 📷</summary>
 <br>
 
@@ -137,13 +96,6 @@ Automatically detects, de-skews, and crops portrait photos from scanned document
 <div align="center">
   <img src="https://raw.githubusercontent.com/gasdlarosa/gasdlarosa/main/image-extractor-screenshot.png" width="800">
 </div>
-
-**Key Features:**
-*   **AI Smart Cropping:** YOLOv8 for optimal head room.
-*   **Automatic De-skew:** OpenCV for perspective correction.
-*   **Multi-Format Support:** Handles PDFs, Word docs, and images.
-*   **Intelligent Filenaming:** Suggests names based on source.
-
 </details>
 
 <details>
@@ -156,13 +108,6 @@ Comprehensive tool for password recovery from ZIP, RAR, and 7z archives.
 <div align="center">
   <img src="https://raw.githubusercontent.com/gasdlarosa/gasdlarosa/main/password-cracker-screenshot.png" width="800">
 </div>
-
-**Key Features:**
-*   **Multiple Attack Modes:** SecLists, mask, hybrid, custom.
-*   **Advanced Options:** Leet speak, keyword filtering.
-*   **Session Management:** Save and load configurations.
-*   **Detailed Reporting:** Statistics and password strength analysis.
-
 </details>
 
 <details>
@@ -175,13 +120,6 @@ Extracts signatures, recolors them, and resizes them for digital documents.
 <div align="center">
   <img src="https://raw.githubusercontent.com/gasdlarosa/gasdlarosa/main/e-signature-app-screenshot.png" width="800">
 </div>
-
-**Key Features:**
-*   **AI Background Removal:** Accurate extraction with Deep Image Segmentation.
-*   **Live Preview:** View changes instantly.
-*   **Full Customization:** Recolor and resize.
-*   **Batch Processing:** Automate multiple images.
-
 </details>
 
 <details>
@@ -194,13 +132,6 @@ Compress, merge, split, convert, and manage PDFs.
 <div align="center">
   <img src="https://raw.githubusercontent.com/gasdlarosa/gasdlarosa/main/pdf-processor-screenshot.png" width="800">
 </div>
-
-**Key Features:**
-*   **Versatile Toolkit:** Compress, merge, split, convert, and more.
-*   **High-Quality Engine:** Powered by Ghostscript.
-*   **Advanced Functionality:** Page organization, image extraction.
-*   **Intuitive GUI:** Simple and fast.
-
 </details>
 
 <details>
@@ -213,13 +144,6 @@ Removes image backgrounds with a single click.
 <div align="center">
   <img src="https://raw.githubusercontent.com/gasdlarosa/gasdlarosa/main/background-remover-screenshot.png" width="800">
 </div>
-
-**Key Features:**
-*   **One-Click Removal:**
-*   **Simple & Fast UI:**
-*   **Live Previews:**
-*   **GUI Logging:**
-
 </details>
 
 <details>
@@ -232,16 +156,7 @@ Modifies font metadata so that font variations (e.g., Bold, Narrow) appear as di
 <div align="center">
   <img src="https://raw.githubusercontent.com/gasdlarosa/gasdlarosa/main/font-renamer-screenshot.png" width="800">
 </div>
-
-**Key Features:**
-*   **Batch Processing:** Process folders of fonts.
-*   **Intelligent Renaming:**
-*   **Detailed Reporting:**
-*   **Automatic Backups:**
-
 </details>
-
----
 
 ## 📧 Get In Touch
 I'm open to discussing projects and collaborations! Let's connect.
