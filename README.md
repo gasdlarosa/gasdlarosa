@@ -1,6 +1,6 @@
 <div align="center">
 
-# 👋 Hi there! I'm Gas Dela Rosa ¯\_(ツ)_/¯
+# 👋 Hi there! I'm Gaspar dela Rosa Jr.
 
 **Python Developer | Desktop Applications | Automation Tools**
 
@@ -16,7 +16,9 @@
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
   <img src="https://img.shields.io/badge/Tkinter-2C5985?style=for-the-badge&logo=python&logoColor=white" alt="Tkinter"/>
   <img src="https://img.shields.io/badge/PRAW-FF4500?style=for-the-badge&logo=reddit&logoColor=white" alt="PRAW"/>
+  <img src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white" alt="SQLite"/>
   <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch"/>
+  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" alt="TensorFlow"/>
   <img src="https://img.shields.io/badge/Transformers-FFD700?style=for-the-badge&logo=hugging-face&logoColor=black" alt="Transformers"/>
   <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white" alt="OpenCV"/>
   <img src="https://img.shields.io/badge/Pillow-92447A?style=for-the-badge&logo=pillow&logoColor=white" alt="Pillow"/>
@@ -32,6 +34,22 @@
 
 ## 🚀 Featured Projects
 
+<details open>
+<summary><strong>🤖 PandokAI</strong> - Secure, Offline AI Image Analysis for Human Insights 🤖</summary>
+<br>
+
+**Overview**
+A secure, offline desktop application for advanced batch image analysis. Leveraging local deep learning models, it provides detailed insights into facial characteristics—including authenticity (deepfake detection), expression, age, gender, and ethnicity—without ever sending data to the cloud.
+
+**Key Features**
+*   **100% Offline Processing:** Ensures maximum data privacy and security.
+*   **Multi-Model Analysis:** Detects faces (MTCNN) and analyzes authenticity, expression, age, gender, and ethnicity.
+*   **Secure & Compliant:** Features role-based access control, secure user authentication with `bcrypt`, and a detailed audit log for all critical actions.
+*   **Professional Reporting:** Generates comprehensive PDF reports of analysis results.
+*   **Modern UI:** Built with CustomTkinter for a clean, responsive dark/light mode interface.
+
+</details>
+
 <details>
 <summary><strong>⬇️ 4K YT Downloader (with Authentication)</strong> - Download YouTube content with role-based authentication ⬇️</summary>
 <br>
@@ -41,8 +59,8 @@ A modern, cross-platform GUI application built with Python and CustomTkinter for
 
 <div align="center">
    <img src="https://raw.githubusercontent.com/gasdlarosa/gasdlarosa/main/4k_yt_downloader_login_page.png" width="800">
-      <img src="https://raw.githubusercontent.com/gasdlarosa/gasdlarosa/main/4k_yt_downloader_main_window.png" width="800">
-         <img src="https://raw.githubusercontent.com/gasdlarosa/gasdlarosa/main/4k_yt_downloader_main_window_fetch.png" width="800">
+   <img src="https://raw.githubusercontent.com/gasdlarosa/gasdlarosa/main/4k_yt_downloader_main_window.png" width="800">
+   <img src="https://raw.githubusercontent.com/gasdlarosa/gasdlarosa/main/4k_yt_downloader_main_window_fetch.png" width="800">
 </div>
 
 </details>
@@ -65,10 +83,9 @@ A powerful and user-friendly desktop tool for extracting images and videos from 
 
 <div align="center">
    <img src="https://raw.githubusercontent.com/gasdlarosa/gasdlarosa/main/main_window.png" width="800">
-      <img src="https://raw.githubusercontent.com/gasdlarosa/gasdlarosa/main/nsfw_downloads.png" width="800">
-         <img src="https://raw.githubusercontent.com/gasdlarosa/gasdlarosa/main/sfw_downloads.png" width="800">
-            <img src="https://raw.githubusercontent.com/gasdlarosa/gasdlarosa/main/videos_downloads.png" width="800">
-
+   <img src="https://raw.githubusercontent.com/gasdlarosa/gasdlarosa/main/nsfw_downloads.png" width="800">
+   <img src="https://raw.githubusercontent.com/gasdlarosa/gasdlarosa/main/sfw_downloads.png" width="800">
+   <img src="https://raw.githubusercontent.com/gasdlarosa/gasdlarosa/main/videos_downloads.png" width="800">
 </div>
 
 </details>
@@ -84,9 +101,9 @@ A user-friendly desktop application built with Python and Tkinter, designed to d
   <img src="https://raw.githubusercontent.com/gasdlarosa/gasdlarosa/main/tiktok_media_downloader.png" width="800" alt="TikTok Media Downloader Screenshot">
   <img src="https://raw.githubusercontent.com/gasdlarosa/gasdlarosa/main/tiktok_extracted_media.png" width="800" alt="TikTok Extracted Media Screenshot">
 </div>
-
-<details>
+</details>
   
+<details>
 <summary><strong>📷 AI Image Extractor</strong> - Crop portraits from scanned documents 📷</summary>
 <br>
 
@@ -103,7 +120,7 @@ Automatically detects, de-skews, and crops portrait photos from scanned document
 <br>
 
 **Overview**
-Comprehensive tool for password recovery from ZIP, RAR, and 7z archives.
+A comprehensive tool for password recovery from ZIP, RAR, and 7z archives.
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/gasdlarosa/gasdlarosa/main/password-cracker-screenshot.png" width="800">
@@ -115,7 +132,7 @@ Comprehensive tool for password recovery from ZIP, RAR, and 7z archives.
 <br>
 
 **Overview**
-Extracts signatures, recolors them, and resizes them for digital documents.
+Extracts signatures from documents, recolors them, and resizes them for digital use.
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/gasdlarosa/gasdlarosa/main/e-signature-app-screenshot.png" width="800">
@@ -127,7 +144,7 @@ Extracts signatures, recolors them, and resizes them for digital documents.
 <br>
 
 **Overview**
-Compress, merge, split, convert, and manage PDFs.
+A versatile toolkit to compress, merge, split, convert, and manage PDFs.
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/gasdlarosa/gasdlarosa/main/pdf-processor-screenshot.png" width="800">
@@ -139,7 +156,7 @@ Compress, merge, split, convert, and manage PDFs.
 <br>
 
 **Overview**
-Removes image backgrounds with a single click.
+Removes image backgrounds with a single click using advanced AI models.
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/gasdlarosa/gasdlarosa/main/background-remover-screenshot.png" width="800">
@@ -151,14 +168,16 @@ Removes image backgrounds with a single click.
 <br>
 
 **Overview**
-Modifies font metadata so that font variations (e.g., Bold, Narrow) appear as distinct font families.
+Modifies font metadata so that font variations (e.g., Bold, Narrow) appear as distinct font families in software.
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/gasdlarosa/gasdlarosa/main/font-renamer-screenshot.png" width="800">
 </div>
 </details>
 
+---
+
 ## 📧 Get In Touch
-I'm open to discussing projects and collaborations! Let's connect.
+I'm open to discussing projects, collaborations, or new opportunities. Let's connect!
 
 [![Email](https://img.shields.io/badge/Email-d14836?style=flat-square&logo=gmail&logoColor=white)](mailto:gasdlarosa@gmail.com) gasdlarosa@gmail.com
