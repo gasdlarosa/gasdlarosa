@@ -42,6 +42,13 @@ _**Overview**_
 <br>
 A secure, offline desktop application for advanced batch image analysis. Leveraging local deep learning models, it provides detailed insights into facial characteristics—including authenticity (deepfake detection), expression, age, gender, and ethnicity—without ever sending data to the cloud.
 
+<div align="center">
+   <img src="https://raw.githubusercontent.com/gasdlarosa/gasdlarosa/main/pandokai_admin_login.png" width="800">
+   <img src="https://raw.githubusercontent.com/gasdlarosa/gasdlarosa/main/pandokai_operator_login.png" width="800">
+   <img src="https://raw.githubusercontent.com/gasdlarosa/gasdlarosa/main/pandokai_main_window.png" width="800">
+  <img src="https://raw.githubusercontent.com/gasdlarosa/gasdlarosa/main/pandokai_main_window_with_subject.png" width="800">
+</div>
+
 </details>
 
 <details>
