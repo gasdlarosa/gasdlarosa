@@ -38,15 +38,9 @@
 <summary><strong>🤖 PandokAI</strong> - Secure, Offline AI Image Analysis for Human Insights 🤖</summary>
 <br>
 
-**Overview**
+_**Overview**_
+<br>
 A secure, offline desktop application for advanced batch image analysis. Leveraging local deep learning models, it provides detailed insights into facial characteristics—including authenticity (deepfake detection), expression, age, gender, and ethnicity—without ever sending data to the cloud.
-
-**Key Features**
-*   **100% Offline Processing:** Ensures maximum data privacy and security.
-*   **Multi-Model Analysis:** Detects faces (MTCNN) and analyzes authenticity, expression, age, gender, and ethnicity.
-*   **Secure & Compliant:** Features role-based access control, secure user authentication with `bcrypt`, and a detailed audit log for all critical actions.
-*   **Professional Reporting:** Generates comprehensive PDF reports of analysis results.
-*   **Modern UI:** Built with CustomTkinter for a clean, responsive dark/light mode interface.
 
 </details>
 
@@ -54,7 +48,8 @@ A secure, offline desktop application for advanced batch image analysis. Leverag
 <summary><strong>⬇️ 4K YT Downloader (with Authentication)</strong> - Download YouTube content with role-based authentication ⬇️</summary>
 <br>
 
-**Overview**
+_**Overview**_
+<br>
 A modern, cross-platform GUI application built with Python and CustomTkinter for downloading YouTube content. It utilizes `yt-dlp` for core downloading and `ffmpeg` for media processing, and features an integrated role-based authentication system. This version is simplified for ease of use, focusing on producing universally compatible media files.
 
 <div align="center">
@@ -69,7 +64,8 @@ A modern, cross-platform GUI application built with Python and CustomTkinter for
 <summary><strong>⚙️ Windows Component Registrar (DLL & OCX)</strong> - Smart batch script for registering COM components ⚙️</summary>
 <br>
 
-**Overview**
+_**Overview**_
+<br>
 A robust and user-friendly batch script for automatically registering COM components (`.dll` and `.ocx` files) on Windows. It intelligently handles administrator privileges and 32/64-bit compatibility issues, making it a reliable tool for developers, IT professionals, and power users.
 
 </details>
@@ -78,7 +74,8 @@ A robust and user-friendly batch script for automatically registering COM compon
 <summary><strong>⬇️ Reddit Media Extractor and NSFW Classifier</strong> - Extract, classify, and organize Reddit media ⬇️</summary>
 <br>
 
-**Overview**
+_**Overview**_
+<br>
 A powerful and user-friendly desktop tool for extracting images and videos from Reddit, classifying them with an AI model, and organizing them into local folders. Built with Python and CustomTkinter, it leverages the Reddit API for content retrieval and a pre-trained AI model for NSFW detection.
 
 <div align="center">
@@ -94,7 +91,8 @@ A powerful and user-friendly desktop tool for extracting images and videos from 
 <summary><strong>⬇️ TikTok Media Downloader</strong> - Download videos and media from TikTok user profiles ⬇️</summary>
 <br>
 
-**Overview**
+_**Overview**_
+<br>
 A user-friendly desktop application built with Python and Tkinter, designed to download videos and media from TikTok user profiles. It leverages the powerful `yt-dlp` backend.
 
 <div align="center">
@@ -107,7 +105,8 @@ A user-friendly desktop application built with Python and Tkinter, designed to d
 <summary><strong>📷 AI Image Extractor</strong> - Crop portraits from scanned documents 📷</summary>
 <br>
 
-**Overview**
+_**Overview**_
+<br>
 Automatically detects, de-skews, and crops portrait photos from scanned documents.
 
 <div align="center">
@@ -119,7 +118,8 @@ Automatically detects, de-skews, and crops portrait photos from scanned document
 <summary><strong>🔐 Password Cracker</strong> - Recover passwords from compressed archives 🔐</summary>
 <br>
 
-**Overview**
+_**Overview**_
+<br>
 A comprehensive tool for password recovery from ZIP, RAR, and 7z archives.
 
 <div align="center">
@@ -131,7 +131,8 @@ A comprehensive tool for password recovery from ZIP, RAR, and 7z archives.
 <summary><strong>✒️ AI Signature Editor</strong> - Extract, recolor, and resize signatures ✒️</summary>
 <br>
 
-**Overview**
+_**Overview**_
+<br>
 Extracts signatures from documents, recolors them, and resizes them for digital use.
 
 <div align="center">
@@ -143,7 +144,8 @@ Extracts signatures from documents, recolors them, and resizes them for digital 
 <summary><strong>📄 PDF Processor</strong> - Toolkit for PDF processing needs 📄</summary>
 <br>
 
-**Overview**
+_**Overview**_
+<br>
 A versatile toolkit to compress, merge, split, convert, and manage PDFs.
 
 <div align="center">
@@ -155,7 +157,8 @@ A versatile toolkit to compress, merge, split, convert, and manage PDFs.
 <summary><strong>✨ AI Background Remover</strong> - One-click background removal ✨</summary>
 <br>
 
-**Overview**
+_**Overview**_
+<br>
 Removes image backgrounds with a single click using advanced AI models.
 
 <div align="center">
@@ -167,7 +170,8 @@ Removes image backgrounds with a single click using advanced AI models.
 <summary><strong>🔠 Font Renamer Utility</strong> - Make font variations distinct 🔠</summary>
 <br>
 
-**Overview**
+_**Overview**_
+<br>
 Modifies font metadata so that font variations (e.g., Bold, Narrow) appear as distinct font families in software.
 
 <div align="center">
